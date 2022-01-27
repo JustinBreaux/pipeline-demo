@@ -15,6 +15,6 @@ public class App {
             ctx.status(200);
         })); //ctx represents context of request/response for the Handler
 
-        app.start();
+        app.start(7000);
     }
 }
